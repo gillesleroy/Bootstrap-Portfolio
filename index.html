@@ -11,7 +11,7 @@
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
   
   <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/gilles.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/gilles.css">
 </head>
 
 <body>
@@ -25,132 +25,61 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Gilles Leroy</a>
+      <div>
+        <a class="navbar-brand" id="header-title" href="#">Gilles Leroy</a>
+      </div>
+
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Above</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a id="about" href="#">About</a></li>
+        <li><a id="portfolio" href="#">Portfolio</a></li>
+        <li><a id="contact" href="#">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container">
+<div id="main-container" class="container">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-12">
       <div class="page-header">
         <h1>About Me</h1>
       </div>
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="thumbnail">
-            <img src="assets/images/gilles-bio-3.jpg" alt="Me">
-          </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="caption">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.
-
-                Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.
-                
-                Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-            </div>       
-          </div>
-        </div>
     </div>
-    <div class="col-sm-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">SideBar</h3>
-        </div>
-        <div class="panel-body">
-          Sidebar content
-        </div>
-      </div>
+  </div>
 
+  <div class="row">
+    <div class="col-sm-12">
+      <!-- <div class="thumbnail"> -->
+        <img id="me" src="assets/images/gilles-bio-3.jpg" alt="Me">
+      <!-- </div>
     </div>
+    <div class="col-sm-6"> -->
+        <div class="caption">
+          <p id="para-main" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.
+            Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.
+            Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          </p>
+        </div>       
+    <!-- </div> -->
   </div>
 </div>
+</div>
 
-
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col">
-          <h1>&nbsp;</h1>
-      </div>
-      <div class="col">
-          <h1>&nbsp;</h1>
-      </div>
-      <div class="col">
-        <a href="index.html" id="logo">Gilles Leroy</a>
-      </div>
-      <div class="col">
-          <h1>&nbsp;</h1>
-      </div>
-      <div class="col">
-          <h1>&nbsp;</h1>
-      </div>
-      <div class="col">
-          <h1>&nbsp;</h1>
-      </div>
-      <div class="col">
-          <h1>&nbsp;</h1>
-      </div>            
-      <div class="col">
-        <a href="index.html">About</a>
-      </div>
-      <div class="col">
-        <a href="portfolio.html">Portfolio</a>
-      </div>
-      <div class="col">
-        <a href="contact.html">Contact</a>
-      </div>
-      <div class="col">
-          <h1>&nbsp;</h1>
-      </div>
-      <div class="col">
-          <h1>&nbsp;</h1>
-      </div>      
-    </div>
-  </div> -->
-
-  <!-- <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Gilles Leroy</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-    </section>
-
+<div class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+    <p id="footer" class="navbar-text">Copyright &copy;</p>
   </div>
-
-  <footer>
+  <!-- <footer>
     <div class="container">
       Copyright &copy; 
     </div>
   </footer> -->
+</div>
+
 
   <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
